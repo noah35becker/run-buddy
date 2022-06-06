@@ -49,9 +49,26 @@ header nav ul li a{
 }
 
 
-/*Section*/
+/*Section (general rules)*/
 section {
     padding: 60px;
+}
+
+.section-title{
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border{
+    border-color: #fce138;
+}
+
+.secondary-border{
+    border-color: #39a6b2;
 }
 
 
@@ -116,15 +133,6 @@ section {
     text-align: center;
 }
 
-#what-we-do h2{
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px;
-    border-bottom: 3px solid #fce138;
-    display: inline-block;
-}
-
 #what-we-do p{
     line-height: 1.7em;
     color: #39a6b2;
@@ -132,6 +140,38 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+
+
+/*What You Do*/
+#what-you-do{
+    text-align: center;
+    background-color: #fce138;
+}
+
+#what-you-do div{
+    margin-bottom: 80px;
+}
+
+#what-you-do img{
+    width: 15%;
+    margin: 10px 0;
+}
+
+#what-you-do h3{
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+#what-you-do p{
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+#what-you-do h3 span{
+    font-size: 38px;
+}
+
 
 
 /*Footer*/
