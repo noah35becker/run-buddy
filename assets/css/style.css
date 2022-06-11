@@ -1,141 +1,159 @@
 
-/*GENERAL-PURPOSE UTILITY CLASSES*/
-.section-title{
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
+/*UTILITY CLASSES*/
+    .section-title{
+        font-size: 55px;
+        color: #024e76;
+        margin-bottom: 35px;
+        padding: 0 100px 20px;
+        display: inline-block;
+        border-bottom: 3px solid;
+    }
 
-.primary-border{
-    border-color: #fce138;
-}
+    .primary-border{
+        border-color: #fce138;
+    }
 
-.secondary-border{
-    border-color: #39a6b2;
-}
+    .secondary-border{
+        border-color: #39a6b2;
+    }
 
-.text-left{
-    text-align: left;
-}
+    .text-left{
+        text-align: left;
+    }
 
-.text-right{
-    text-align: right;
-}
+    .text-right{
+        text-align: right;
+    }
 
 
 /*ALL*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-
-/*Body*/
-body{
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-}
+    body{
+        color: #39a6b2;
+        font-family: Helvetica, Arial, sans-serif;
+    }
 
 
 /*Header*/
-header{
-    padding: 20px 35px;
-    background-color: #39a6b2;
-}
+    header{
+        padding: 20px 35px;
+        background-color: #39a6b2;
+    }
 
-header h1{
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-}
+    header h1{
+        font-weight: bold;
+        font-size: 36px;
+        color: #fce138;
+        margin: 0;
+        display: inline;
+    }
 
-header a{
-    text-decoration: none;
-    color: #fce138;
-}
+    header a{
+        text-decoration: none;
+        color: #fce138;
+    }
 
-header nav{
-    float: right;
-    margin: 7px 0;
-}
+    header nav{
+        float: right;
+        margin: 7px 0;
+    }
 
-header nav ul li{
-    display: inline;
-}
+    header nav ul li{
+        display: inline;
+    }
 
-header nav ul li a{
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-}
+    header nav ul li a{
+        margin: 0 30px;
+        font-weight: lighter;
+        font-size: 22px;
+    }
 
 
 /*Section*/
-section {
-    padding: 60px;
-}
+    section {
+        padding: 60px;
+    }
 
 
 /*Hero*/
-.hero{
-    background-image: url("../images/hero-bg.jpg");
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
+    .hero{
+        background-image: url("../images/hero-bg.jpg");
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
 
-.hero form{
-    color: #024e76;
-    background-color: #fce138;
-    padding: 20px;
-    width: 500px;
-    border: solid 3px #024e76;
-    position: absolute;
-    bottom: 120px;
-    right: 140px;
-}
+    /*Hero "Start building habits"*/
+    /*.hero .start-building-habits{
+        text-align: right;
+        position: relative;
+        right: 700px;
+        
+    }
 
-.hero form h3{
-    margin: 0;
-    font-size: 24px;
-}
+    .hero h1{
+        color: #fce138;
+        font-style: italic;
+        font-size: 40px;
+    }
 
-.hero form p{
-    margin: 5px 0 15px 0;
-}
+    .hero p{
+        color: white;
+    }*/
 
-.hero form .text-input{
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #024e76;
-    width: 100%;
-    margin-bottom: 15px;
-}
 
-.hero form .radio-input{
-    border: 1px solid #024e76;
-}
+    /*Hero Form*/
+    .hero form{
+        color: #024e76;
+        background-color: #fce138;
+        padding: 20px;
+        width: 500px;
+        border: solid 3px #024e76;
+        position: absolute;
+        bottom: 120px;
+        right: 140px;
+    }
 
-.hero form label{
-    margin: 0 5px;
-}
+    .hero form h3{
+        margin: 0;
+        font-size: 24px;
+    }
 
-.hero form button{
-    color: #fce138;
-    background-color: #024e76;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-}
+    .hero form p{
+        margin: 5px 0 15px 0;
+    }
+
+    .hero form .text-input{
+        border: 1px solid #024e76;
+        display: block;
+        padding: 7px 15px;
+        font-size: 16px;
+        color: #024e76;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .hero form .radio-input{
+        border: 1px solid #024e76;
+    }
+
+    .hero form label{
+        margin: 0 5px;
+    }
+
+    .hero form button{
+        color: #fce138;
+        background-color: #024e76;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
 
 
 /*What We Do*/
