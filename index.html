@@ -6,7 +6,9 @@
         
         <meta charset = "UTF-8" />
 
-        <link rel="stylesheet" href="./assets/css/style.css" />
+        <meta name = "viewport" content = "width=device-width, intial-scale=1.0" />
+
+        <link rel = "stylesheet" href="./assets/css/style.css" />
 
         <title>Run Buddy</title>
 
@@ -45,10 +47,13 @@
 
         <!-- hero/jumbotron-->
         <section class="hero">
-        
-            <div>
+    
+                <div class="hero-cta">
+                    <h2>Start Building Habits.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsa error in voluptatum dolorum velit odio numquam alias delectus repudiandae impedit, placeat excepturi sequi optio vitae eligendi quae pariatur dolore.</p>
+                </div>
 
-                <form>
+                <form class="hero-form">
 
                     <h3>Get Started Today</h3>
                 
@@ -67,17 +72,23 @@
 
                         Have you worked out with a trainer before?
 
-                        <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                        <label for="trainer-yes">Yes</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer-confirm" id="trainer-yes" class="radio-input" />
+                            <label for="trainer-yes">Yes</label>
+                        </span>
 
-                        <input type="radio" name="trainer-confirm" id="trainer-no" />
-                        <label for="trainer-no">No</label>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="trainer-confirm" id="trainer-no" class="radio-input" />
+                            <label for="trainer-no">No</label>
+                        </span>                        
 
                     </p>
 
                     <p>
-                        <label for="of-age">I acknowledge that I am at least 18 years of age.</label>
-                        <input type="checkbox" name="of-age" id="of-age">
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="of-age" id="of-age">
+                            <label for="of-age">I acknowledge that I am at least 18 years of age.</label>
+                        </span>
                     </p>
 
                     <button type="submit">
@@ -86,48 +97,84 @@
 
                 </form>
 
-            </div>
-
         </section>
         
         <!-- "what we do" section-->
-        <section id="what-we-do">
+        <section id="what-we-do" class="intro">
             
-            <h2 class="section-title primary-border">What We Do</h2>
+            <div class="flex-row">
+                <h2 class="section-title primary-border">
+                    What We Do
+                </h2>
+            </div>
 
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas mollitia quia modi culpa suscipit. Porro explicabo at fugiat obcaecati quibusdam ut eveniet odit minus molestiae, dignissimos, eos libero sequi autem.
-            </p>
+            <div class="flex-row">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas mollitia quia modi culpa suscipit. Porro explicabo at fugiat obcaecati quibusdam ut eveniet odit minus molestiae, dignissimos, eos libero sequi autem.
+                </p>
+            </div>
 
         </section>
         
         <!-- "what you do" section-->
-        <section id="what-you-do">
+        <section id="what-you-do" class="steps">
             
-            <h2 class="section-title primary-border">What You Do</h2>
-
-            <div>
-                <img src="./assets/images/step-1.svg" alt="" />
-                <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
-                <p>You're already here, so why not?</p>
-            </div>
-            
-            <div>
-                <img src="./assets/images/step-2.svg" alt="" />
-                <h3>Step 2: <span>Consult With One of Our Trainers.</span></h3>
-                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    What You Do
+                </h2>
             </div>
 
-            <div>
-                <img src="./assets/images/step-3.svg" alt="" />
-                <h3>Step 3: <span>Get Running.</span></h3>
-                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            <div class="step">
+                <h3>Step 1:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-1.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Fill Out the Form Above.</h4>
+                        <p>You're already here, so why not?</p>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <img src="./assets/images/step-4.svg" alt="" />
-                <h3>Step 4: <span>See Results.</span></h3>
-                <p>Bi-weekly checkins with your trainer will keep you focused.</p>
+            <div class="step">
+                <h3>Step 2:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-2.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Consult With One of Our Trainers.</h4>
+                        <p>Are you here to build muscle, lose weight, or just feel good?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <h3>Step 3:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-3.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>Get Running.</h4>
+                        <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step">
+                <h3>Step 4:</h3>
+                <div class="step-info">
+                    <div class="step-img">
+                        <img src="./assets/images/step-4.svg" alt="" />
+                    </div>
+                    <div class="step-text">
+                        <h4>See Results.</h4>
+                        <p>Bi-weekly checkins with your trainer will keep you focused.</p>
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -135,57 +182,60 @@
         <!-- "meet the trainers" section-->
         <section id="your-trainers">
             
-            <h2 class="section-title primary-border">Meet The Trainers</h2>
+            <div class="flex-row">
+                <h2 class="section-title primary-border">
+                    Meet The Trainers
+                </h2>
+            </div>
 
-            <article class="trainer">                
-                <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-                <div class="trainer-bio text-left">
-                    <h3>Arron Stephens</h3>
-                    <h4>Speed / Strength</h4>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque asperiores perferendis voluptates sapiente ad corporis, accusamus optio sequi veritatis, architecto minima temporibus? Similique voluptatem autem enim nobis labore quo veniam!
-                    </p>
-                </div>
-            </article>
+            <div class="trainers">
+                <article class="trainer">                
+                    <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+                    <div class="trainer-bio">
+                        <h3 class="trainer-name">Arron Stephens</h3>
+                        <h4 class="trainer-role">Speed / Strength</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque asperiores perferendis voluptates sapiente ad corporis, accusamus optio sequi veritatis, architecto minima temporibus? Similique voluptatem autem enim nobis labore quo veniam!
+                        </p>
+                    </div>
+                </article>
 
-            <article class="trainer">                
-                <div class="trainer-bio text-right">
-                    <h3>Joanna Gill</h3>
-                    <h4>Endurance</h4>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque asperiores perferendis voluptates sapiente ad corporis, accusamus optio sequi veritatis, architecto minima temporibus? Similique voluptatem autem enim nobis labore quo veniam!
-                    </p>
-                </div>
-                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
-            </article>
+                <article class="trainer">
+                    <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+                    <div class="trainer-bio">
+                        <h3 class="trainer-name">Joanna Gill</h3>
+                        <h4 class="trainer-role">Endurance</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque asperiores perferendis voluptates sapiente ad corporis, accusamus optio sequi veritatis, architecto minima temporibus? Similique voluptatem autem enim nobis labore quo veniam!
+                        </p>
+                    </div>
+                </article>
 
-            <article class="trainer">                
-                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-                <div class="trainer-bio text-left">
-                    <h3>Harry "The Headband" Smith</h3>
-                    <h4>Strength</h4>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque asperiores perferendis voluptates sapiente ad corporis, accusamus optio sequi veritatis, architecto minima temporibus? Similique voluptatem autem enim nobis labore quo veniam!
-                    </p>
-                </div>
-            </article>
+                <article class="trainer">                
+                    <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+                    <div class="trainer-bio">
+                        <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+                        <h4 class="trainer-role">Strength</h4>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque asperiores perferendis voluptates sapiente ad corporis, accusamus optio sequi veritatis, architecto minima temporibus? Similique voluptatem autem enim nobis labore quo veniam!
+                        </p>
+                    </div>
+                </article>
+            </div>
 
         </section>
 
         <!-- "reach out" section-->
-        <section id="reach-out">
+        <section id="reach-out" class="contact">
             
-            <h2 class="section-title secondary-border">Reach Out</h2>
+            <div class="flex-row">
+                <h2 class="section-title secondary-border">
+                    Reach Out
+                </h2>
+            </div>
 
             <div class="contact-info">
-               
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.502161248474!2d-73.95893908470269!3d40.662903279337215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b72864c7fdb%3A0x972c4cfcfee6c106!2s125%20Sterling%20St%2C%20Brooklyn%2C%20NY%2011225!5e0!3m2!1sen!2sus!4v1654560352587!5m2!1sen!2sus"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-
+                
                 <div>
                     <h3>Run Buddy</h3>
                     <p>
@@ -199,8 +249,28 @@
                         P: 555.RUN.BUDZ (555.786.2839)<br />
                         E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
                     </address>
-               
                 </div>
+
+                <div class="contact-form">
+                    <h3>Contact Us</h3>
+                    <form>
+                        <label for="contact-name">Your Name</label>
+                        <input type="text" id="contact-name" placeholder="Your Name" />
+
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" placeholder="Message"></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.502161248474!2d-73.95893908470269!3d40.662903279337215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b72864c7fdb%3A0x972c4cfcfee6c106!2s125%20Sterling%20St%2C%20Brooklyn%2C%20NY%2011225!5e0!3m2!1sen!2sus!4v1654560352587!5m2!1sen!2sus"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
             </div>
 
         </section>
