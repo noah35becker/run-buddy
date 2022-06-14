@@ -163,7 +163,7 @@
 
 
 /*What We Do*/
-    #what-we-do p{
+    .intro p{
         line-height: 1.7;
         color: #39a6b2;
         width: 80%;
@@ -173,34 +173,60 @@
     }
 
 
-    /*What You Do*/
-    #what-you-do{
+/*What You Do*/
+    .steps{
         background-color: #fce138;
     }
 
-    #what-you-do div{
-        margin-bottom: 80px;
+    .step{
+        margin: 50px auto;
+        padding-bottom: 50px;
+        width: 80%;
+        border-bottom: 1px solid #39a6b2;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    #what-you-do img{
-        width: 15%;
-        margin: 10px 0;
-    }
-
-    #what-you-do h3{
+    .step h3{
         color: #024e76;
         font-size: 46px;
-        margin-top: 10px;
+        flex: 1 30%;
     }
 
-    #what-you-do p{
+    .step-info{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex: 2 70%;
+    }
+
+    .step-img{
+        flex: 1 12%;
+        margin-right: 20px;
+    }
+
+    .step-img img{
+        max-width: 100%;
+    }
+
+    .step-text{
+        flex: 12;
+        text
+    }
+
+    .step-text h4{
+        font-size: 26px;
+        line-height: 1.5;
+        color: #024e76;
+    }
+
+    .step-text p{
         color: #39a6b2;
-        font-size: 23px;
+        font-size: 18px;
     }
 
-    #what-you-do h3 span{
-        font-size: 38px;
-    }
 
 
 /*Meet The Trainers*/
@@ -232,11 +258,11 @@
 
 
 /*Reach Out*/
-    #reach-out{
+    .contact{
         background-color: #024e76;
     }
 
-    #reach-out h2{
+    .contact h2{
         color: #fce138;
     }
 
