@@ -3,10 +3,11 @@
     .section-title{
         font-size: 55px;
         color: #024e76;
-        margin-bottom: 35px;
-        padding: 0 100px 20px;
-        display: inline-block;
         border-bottom: 3px solid;
+        padding-bottom: 20px;
+        text-align: center;
+        margin: 0 auto 35px;
+        width: 50%;
     }
 
     .primary-border{
@@ -25,8 +26,12 @@
         text-align: right;
     }
 
+    .flex-row{
+        display: flex;
+    }
 
-/*ALL*/
+
+/*GENERAL RULES*/
     *{
         margin: 0;
         padding: 0;
@@ -36,6 +41,10 @@
     body{
         color: #39a6b2;
         font-family: Helvetica, Arial, sans-serif;
+    }
+
+    section {
+        padding: 60px;
     }
 
 
@@ -76,12 +85,6 @@
         margin: 0 30px;
         font-weight: lighter;
         font-size: 1.55vw;
-    }
-
-
-/*Section*/
-    section {
-        padding: 60px;
     }
 
 
@@ -160,54 +163,47 @@
 
 
 /*What We Do*/
-#what-we-do{
-    text-align: center;
-}
-
-#what-we-do p{
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-}
+    #what-we-do p{
+        line-height: 1.7;
+        color: #39a6b2;
+        width: 80%;
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
 
 
-/*What You Do*/
-#what-you-do{
-    text-align: center;
-    background-color: #fce138;
-}
+    /*What You Do*/
+    #what-you-do{
+        background-color: #fce138;
+    }
 
-#what-you-do div{
-    margin-bottom: 80px;
-}
+    #what-you-do div{
+        margin-bottom: 80px;
+    }
 
-#what-you-do img{
-    width: 15%;
-    margin: 10px 0;
-}
+    #what-you-do img{
+        width: 15%;
+        margin: 10px 0;
+    }
 
-#what-you-do h3{
-    color: #024e76;
-    font-size: 46px;
-    margin-top: 10px;
-}
+    #what-you-do h3{
+        color: #024e76;
+        font-size: 46px;
+        margin-top: 10px;
+    }
 
-#what-you-do p{
-    color: #39a6b2;
-    font-size: 23px;
-}
+    #what-you-do p{
+        color: #39a6b2;
+        font-size: 23px;
+    }
 
-#what-you-do h3 span{
-    font-size: 38px;
-}
+    #what-you-do h3 span{
+        font-size: 38px;
+    }
 
 
 /*Meet The Trainers*/
-    #your-trainers{
-        text-align: center;
-    }
     .trainer{
         width: 900px;
         margin: 0 auto 30px;
@@ -237,7 +233,6 @@
 
 /*Reach Out*/
     #reach-out{
-        text-align: center;
         background-color: #024e76;
     }
 
