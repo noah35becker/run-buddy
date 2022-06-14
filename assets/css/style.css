@@ -118,7 +118,7 @@
 
 
     /*Hero Form*/
-        .hero form{
+        .hero-form{
             color: #024e76;
             background-color: #fce138;
             padding: 20px;
@@ -127,16 +127,16 @@
             margin: 3.5%;
         }
 
-        .hero form h3{
+        .hero-form h3{
             margin: 0;
             font-size: 24px;
         }
 
-        .hero form p{
+        .hero-form p{
             margin: 5px 0 15px 0;
         }
 
-        .hero form .text-input{
+        .hero-form .text-input{
             border: 1px solid #024e76;
             display: block;
             padding: 7px 15px;
@@ -146,15 +146,15 @@
             margin-bottom: 15px;
         }
 
-        .hero form .radio-input{
+        .hero-form .radio-input{
             border: 1px solid #024e76;
         }
 
-        .hero form label{
+        .hero-form label{
             margin: 0 5px;
         }
 
-        .hero form button{
+        .hero-form button{
             color: #fce138;
             background-color: #024e76;
             border: none;
@@ -338,17 +338,19 @@
         background: #fce138;
         width: 100%;
         padding: 40px 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     footer h2{
-        display: inline;
         color: #024e76;
         font-size: 30px;
         margin: 0;
     }
 
     footer div{
-        float: right;
         line-height: 1.5;
         text-align: right;
     }
@@ -363,16 +365,135 @@
 /*MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER*/
     @media screen and (max-width: 980px){
         
+        /*General*/
+        .section-title{
+            width: 80%;
+        }
+
+
+        /*Header*/
+            header{
+                justify-content: center;
+                padding-bottom: 0;
+            }
+
+            header h1{
+                width: 100%;
+                text-align: center;
+            }
+
+            header nav ul{
+                margin-top: 20px;
+                width: 100%;
+            }
+
+            header nav ul li a{
+                font-size: 20px;
+            }
+
+
+        /*Hero*/
+            .hero-cta, .hero-form{
+                width: 100%;
+            }
+
+            .hero-cta{
+                text-align: center;
+            }
+
+
+        /*Trainers*/
+            .trainer{
+                flex: 0 70%;
+
+            }
+
+
+        /*Contact info*/
+            .contact-info iframe{
+                flex: 1 100%;
+            }
+
+
+        /*Footer*/
+            footer h2, footer div{
+            text-align: center;
+            width: 100%;
+            }
     }
 
 
 /*MEDIA QUERY FOR TABLETS AND SMALLER*/
     @media screen and (max-width: 768px){
         
+        /*General*/
+            section{
+                padding: 30px 15px;
+            }
+
+
+        /*What You Do*/
+            .step h3{
+                flex: 1 100%;
+                text-align: center;
+            }
+
+            .step-info{
+                flex: 2 100%;
+                text-align: center;
+                justify-content: center;
+            }
+
+            .step-img{
+                margin: 15px 0;
+                flex: 0 32%;
+            }
+
+            .step-text{
+                flex: 100%;
+            }
+
     }
 
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
     @media screen and (max-width: 575px){
+
+        /*General*/
+            .section-title{
+                width: 95%;
+            }
+
+
+        /*Hero*/
+            .hero-form button{
+                width: 100%
+            }
+
         
+        /*What We Do*/
+            .intro p{
+                width: 100%;
+            }
+
+
+        /*Trainers*/
+            .trainer{
+                flex: 0 100%;
+            }
+
+
+        /*Reach out*/
+            .contact-info{
+                text-align: center;
+                ;
+            }
+            
+            .contact-info > *{
+                flex: 0 100%;
+            }
+
+            .contact-form{
+                order: 3;
+            }
     }
