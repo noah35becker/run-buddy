@@ -88,29 +88,29 @@
 /*Hero*/
     .hero{
         background-image: url("../images/hero-bg.jpg");
-        height: 600px;
         background-size: cover;
         background-position: center;
-        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
-    /*Hero "Start building habits"*/
-    /*.hero .start-building-habits{
+
+    /*Hero Call to Action*/
+    .hero-cta{
+        width: 35%;
         text-align: right;
-        position: relative;
-        right: 700px;
-        
-    }
-
-    .hero h1{
-        color: #fce138;
-        font-style: italic;
-        font-size: 40px;
-    }
-
-    .hero p{
+        margin: 3.5%;
         color: white;
-    }*/
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .hero-cta h2{
+        font-style: italic;
+        font-size: 50px;
+        color: #fce138;
+    }
 
 
     /*Hero Form*/
@@ -118,11 +118,9 @@
         color: #024e76;
         background-color: #fce138;
         padding: 20px;
-        width: 500px;
         border: solid 3px #024e76;
-        position: absolute;
-        bottom: 120px;
-        right: 140px;
+        width: 40%;
+        margin: 3.5%;
     }
 
     .hero form h3{
@@ -167,7 +165,7 @@
 }
 
 #what-we-do p{
-    line-height: 1.7em;
+    line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
@@ -207,98 +205,98 @@
 
 
 /*Meet The Trainers*/
-#your-trainers{
-    text-align: center;
-}
-.trainer{
-    width: 900px;
-    margin: 0 auto 30px;
-    background-color: #024e76;
-    color: #fce138;
-    overflow: auto;
-}
-.trainer img{
-    width: 35%;
-    float: left;
-}
-.trainer-bio{
-    padding: 35px;
-    float: left;
-    width: 65%;
-}
-.trainer-bio h3{
-    font-size: 32px;
-    margin-bottom: 8px;
-}
-.trainer-bio h4{
-    font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
-}
+    #your-trainers{
+        text-align: center;
+    }
+    .trainer{
+        width: 900px;
+        margin: 0 auto 30px;
+        background-color: #024e76;
+        color: #fce138;
+        overflow: auto;
+    }
+    .trainer img{
+        width: 35%;
+        float: left;
+    }
+    .trainer-bio{
+        padding: 35px;
+        float: left;
+        width: 65%;
+    }
+    .trainer-bio h3{
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .trainer-bio h4{
+        font-weight: lighter;
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
 
 /*Reach Out*/
-#reach-out{
-    text-align: center;
-    background-color: #024e76;
-}
+    #reach-out{
+        text-align: center;
+        background-color: #024e76;
+    }
 
-#reach-out h2{
-    color: #fce138;
-}
+    #reach-out h2{
+        color: #fce138;
+    }
 
-.contact-info iframe{
-    width: 400px;
-    height: 400px;
-    border: 0;
-}
+    .contact-info iframe{
+        width: 400px;
+        height: 400px;
+        border: 0;
+    }
 
-.contact-info div{
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: white;
-}
+    .contact-info div{
+        width: 410px;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+        margin: 30px 0 0 60px;
+        color: white;
+    }
 
-.contact-info h3{
-    color: #fce138;
-    font-size: 32px;
-}
+    .contact-info h3{
+        color: #fce138;
+        font-size: 32px;
+    }
 
-.contact-info p, .contact-info address{
-    margin: 20px 0;
-    line-height: 1.5em;
-    font-size: 20px;
-    font-style: normal;
-}
+    .contact-info p, .contact-info address{
+        margin: 20px 0;
+        line-height: 1.5;
+        font-size: 20px;
+        font-style: normal;
+    }
 
-.contact-info a{
-    color: #fce138;
-}
-
+    .contact-info a{
+        color: #fce138;
+    }
 
 
 /*Footer*/
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
+    footer {
+        background: #fce138;
+        width: 100%;
+        padding: 40px 35px;
+    }
 
-footer h2{
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
+    footer h2{
+        display: inline;
+        color: #024e76;
+        font-size: 30px;
+        margin: 0;
+    }
 
-footer div{
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
+    footer div{
+        float: right;
+        line-height: 1.5;
+        text-align: right;
+    }
 
-footer a{
-    color: #024e76;
-}
+    footer a{
+        color: #024e76;
+    }
